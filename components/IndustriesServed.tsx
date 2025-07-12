@@ -151,7 +151,7 @@ const IndustriesServed = () => {
           {industries.map((industry) => (
             <motion.div
               key={industry.id}
-              variants={itemVariants}
+             // variants={itemVariants}
               whileHover="hover"
               className={`rounded-2xl overflow-hidden shadow-lg border border-gray-100 ${industry.color}`}
               onMouseEnter={() => setHoveredIndustry(industry.id)}
