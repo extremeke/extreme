@@ -27,7 +27,7 @@ const useProducts = () => {
       setLoading(true);
       setError(null);
   
-      console.log('Fetching products from:', 'https://extreme-backend.onrender.com/api/products');
+      console.log('Fetching products from:', 'https://extremebackend-vqua.onrender.com/api/products');
 
       /*const response = await fetch('http://localhost:5000/api/products', {
       headers: {
@@ -35,8 +35,8 @@ const useProducts = () => {
         'Content-Type': 'application/json'
       }
     });*/
-  
-      const response = await fetch('https://extreme-backend.onrender.com/api/products');
+
+      const response = await fetch('https://extremebackend-vqua.onrender.com/api/products');
       const data = await response.json();
 
  
